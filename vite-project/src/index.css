@@ -110,7 +110,7 @@ body {
         @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
 
         p:nth-of-type(2) {
-          @apply font-modern-negra text-6xl text-yellow max-w-xl;
+          @apply font-modern-negra text-4xl md:text-5xl text-yellow max-w-xl;
         }
 
         p:last-of-type {
@@ -118,7 +118,7 @@ body {
         }
 
         .view-cocktails {
-          @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
+          @apply space-y-5 text-sm lg:max-w-2xs md:max-w-xs w-full;
 
           p {
             @apply text-left;
